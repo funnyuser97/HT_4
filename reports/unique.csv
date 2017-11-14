@@ -1,0 +1,157 @@
+count,marker,date,description
+1,ERROR,2017-11-10 11:29:47, None openerp.http: Exception during JSON request handling.
+1,ERROR,2017-11-10 11:33:37," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60309)"
+1,ERROR,2017-11-10 11:33:37," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60414)"
+1,ERROR,2017-11-10 11:33:37," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60415)"
+1,ERROR,2017-11-10 12:07:44," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 54278)"
+8,ERROR,2017-11-10 12:14:41, ? werkzeug: Error on request:
+1,ERROR,2017-11-10 12:15:42," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 56626)"
+1,ERROR,2017-11-10 12:15:54," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 56721)"
+1,ERROR,2017-11-10 12:16:55," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57052)"
+1,ERROR,2017-11-10 12:17:28," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57252)"
+1,ERROR,2017-11-10 12:19:03," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57778)"
+1,ERROR,2017-11-10 12:24:00," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 59336)"
+1,ERROR,2017-11-10 12:27:53," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60481)"
+1,ERROR,2017-11-10 12:28:44," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60740)"
+1,ERROR,2017-11-10 12:28:51," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60810)"
+1,ERROR,2017-11-10 15:27:46," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 61475)"
+1,ERROR,2017-11-10 15:37:03," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 64824)"
+1,ERROR,2017-11-10 15:37:06," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 64884)"
+1,ERROR,2017-11-10 15:47:21," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 52710)"
+1,ERROR,2017-11-10 16:03:49," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 58741)"
+36,ERROR,2017-11-10 17:00:57, ? openerp.sql_db: Connection to the database failed
+32,ERROR,2017-11-10 17:01:54," ? openerp.addons.bus.bus: Bus.loop error, sleep and retry"
+34,ERROR,2017-11-10 17:02:00, None openerp.sql_db: Connection to the database failed
+34,ERROR,2017-11-10 17:02:00," None openerp.http: FATAL:  password authentication failed for user ""openpg"""
+34,ERROR,2017-11-10 17:02:00, None werkzeug: Error on request:
+26,ERROR,2017-11-10 17:30:34, pg openerp.addons.fetchmail.fetchmail: General failure when trying to fetch mail from pop server info@some_product.de.
+26,ERROR,2017-11-10 17:30:55, pg openerp.addons.fetchmail.fetchmail: General failure when trying to fetch mail from pop server catchall@some_product.de.
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module event_sale: Unmet dependencies: sale_crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module hr_applicant_document: Unmet dependencies: hr_recruitment
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module gamification_sale_crm: Unmet dependencies: sale_crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module crm_mass_mailing: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module external_email_service: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module website_crm: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module portal_claim: Unmet dependencies: crm_claim
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module survey_crm: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module hr_recruitment: Unmet dependencies: fetchmail
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module marketing_campaign_crm_demo: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module crm_claim: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module web_linkedin: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module marketing_crm: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module crm_helpdesk: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module crm_profiling: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module sale_crm: Unmet dependencies: crm
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module website_event_sale: Unmet dependencies: event_sale
+4,ERROR,2017-11-10 20:29:17, pg openerp.modules.graph: module crm: Unmet dependencies: fetchmail
+9,ERROR,2017-11-10 20:32:27, pg werkzeug: Error on request:
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model home.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model product.type
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model product.material
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model further.processing
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model employee.commission
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model forum.categories
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model competitors.products
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model product.weight.category
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model product.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model basket.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model delivery.address.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model confirmation.page.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model commercial.proposal.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model billing.information.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model order.confirmation.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model personal.profile.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model settings.page.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model price.quotation.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model list.of.orders.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model issued.invoices.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model blog.article.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model blog.article.liked.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model blog.author.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model aboutus.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model legal.stuff.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model privacy.policy.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model upload.scheme.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model faq.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model flixo.online
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model order.confirmation
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model commercial.proposal
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model blog.article.create.questions.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model login.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model registration.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model forgot.password.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model login.common.content
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model uploaded.drawing.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model flixo.unit
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model catalog.faq
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model flixo.material
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model flixo.online.figure
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model blog.slider
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model upload.scheme.config
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model scheme.price.config
+7,ERROR,2017-11-10 20:43:17, pg openerp.addons.base.ir.ir_model: Missing model promo.page
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.promo.action
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model home.page.slider
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model home.page.slider.iqub
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.u.glass
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.psy.w
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.figure.information
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.online.path.settings
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.promo.action.code
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.psy.s.window
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.svg.file
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.payment.history
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.psy.s.internal
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.svg.opt.file
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.svg.analized.file
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.user.optimization.file
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.optimized.figure.information
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.error.code
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model flixo.material.slider
+7,ERROR,2017-11-10 20:43:18, pg openerp.addons.base.ir.ir_model: Missing model print.pricelist
+4,ERROR,2017-11-10 20:43:20, pg openerp.addons.document.content_index: Cannot determine mime type.
+9,ERROR,2017-11-10 20:55:55, pg openerp.modules.graph: module some_product_shop: Unmet dependencies: profile_management
+5,ERROR,2017-11-10 20:55:55, pg openerp.modules.graph: module profile_management: Unmet dependencies: web_tree_image
+2,ERROR,2017-11-10 20:59:45," pg openerp.modules.graph: module some_product_shop: Unmet dependencies: profile_management, some_product_website_management"
+10,ERROR,2017-11-10 21:11:32, pg openerp.addons.website.models.ir_http: 500 Internal Server Error:
+1,ERROR,2017-11-10 21:12:22," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 54807)"
+1,ERROR,2017-11-10 21:12:30," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 55068)"
+1,ERROR,2017-11-10 21:13:16," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 55051)"
+1,ERROR,2017-11-10 21:13:30," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 55162)"
+1,ERROR,2017-11-10 21:17:47," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 56140)"
+1,ERROR,2017-11-10 21:21:29," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57014)"
+1,ERROR,2017-11-10 21:24:25," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57881)"
+1,ERROR,2017-11-10 21:25:10," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57823)"
+1,ERROR,2017-11-10 21:25:13," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 57867)"
+1,ERROR,2017-11-10 21:25:41," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 58030)"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module some_product_blog_v2: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module some_product_blog_v2: not installable, skipped"
+15,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module profile_management: module not found
+15,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module profile_management: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module web_tree_image: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module web_tree_image: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module web_ckeditor4: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module web_ckeditor4: not installable, skipped"
+11,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module some_product_website_management: module not found
+11,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module some_product_website_management: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module some_product_uys: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module some_product_uys: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module some_product_faq: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module some_product_faq: not installable, skipped"
+9,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module some_product_shop: module not found
+9,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module some_product_shop: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module flixo_online: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module flixo_online: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module super_mail: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module super_mail: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.module: module internal_thread: module not found
+20,WARNING,2017-11-10 17:29:12," pg openerp.modules.graph: module internal_thread: not installable, skipped"
+20,WARNING,2017-11-10 17:29:12, pg openerp.modules.graph: Some modules were not loaded.
+7,WARNING,2017-11-10 17:29:15, pg openerp.fields: Field external.mail.messages.dialogue_id with unknown comodel_name 'external.mail.dialogue'
+4,WARNING,2017-11-10 20:29:17, pg openerp.modules.module: module fetchmail: module not found
+4,WARNING,2017-11-10 20:29:17," pg openerp.modules.graph: module fetchmail: not installable, skipped"
+4,CRITICAL,2017-11-10 17:00:57, ? openerp.service.server: Failed to initialize database `pg`.
+4,CRITICAL,2017-11-10 20:29:18, pg openerp.service.server: Failed to initialize database `pg`.
+9,CRITICAL,2017-11-10 20:55:56, pg openerp.modules.module: Couldn't load module some_product_website_management
+5,CRITICAL,2017-11-10 20:55:56, pg openerp.modules.module: No module named requests_oauthlib
+4,CRITICAL,2017-11-10 20:58:21, pg openerp.modules.module: No module named profile_management
