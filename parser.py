@@ -20,6 +20,7 @@ def main():
 
 	inputfile = open(INPUT_FILE, mode='r',encoding='utf-8')
 	mytext = inputfile.read()
+	inputfile.close()
 
 	records_error = re.findall(pattern_error,mytext)
 	records_warning = re.findall(pattern_warning,mytext)
