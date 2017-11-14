@@ -38,7 +38,7 @@ def main():
 	inf_warning = parser(count_warning,count_error,records_warning)
 	inf_critical = parser(count_critical,count_error+count_warning,records_critical)
 
-	file1_write(inf_error,inf_warning,inf_critical)
+	file_write(ALL_DATA,"id_line",inf_error,inf_warning,inf_critical)
 
 	uni_error = uni(inf_error)
 	uni_warning = uni(inf_warning)
@@ -49,7 +49,7 @@ def main():
 	print('Unique critical:'+str(len(uni_critical)))
 	print('Total unique:'+str(len(uni_error)+len(uni_warning)+len(uni_critical)))
 
-	file2_write(uni_error,uni_warning,uni_critical)
+	file_write(UNIQUE,"count",uni_error,uni_warning,uni_critical)
 	return;
 
 def parser(count,plus,records):
@@ -65,7 +65,7 @@ def parser(count,plus,records):
 		records_date.append(tmp1[0])
 		records_marker.append(tmp2[0])
 		records_description.append(tmp3[0].replace(tmp2[0],''))
-		mydict={"id_str":i+plus,"marker":records_marker[i],"date":records_date[i],"description":records_description[i]}
+		mydict={"id_line":i+plus,"marker":records_marker[i],"date":records_date[i],"description":records_description[i]}
 		info.append(mydict)
 	return info
 
@@ -84,9 +84,9 @@ def uni(list_of_dict):
 		else: plus=0
 	return new
 
-def file1_write(inf_error,inf_warning,inf_critical):
-	with open(ALL_DATA, "w", newline="") as file:
-	    columns = ["id_str","marker", "date", "description"]
+def file_write(name_file,first_col,inf_error,inf_warning,inf_critical):
+	with open(name_file, "w", newline="") as file:
+	    columns = [first_col,"marker", "date", "description"]
 	    writer = csv.DictWriter(file, fieldnames=columns)
 	    writer.writeheader()
 	     
@@ -94,16 +94,5 @@ def file1_write(inf_error,inf_warning,inf_critical):
 	    writer.writerows(inf_warning) 	
 	    writer.writerows(inf_critical) 	
 	return;
-
-
-def file2_write(inf_error,inf_warning,inf_critical):
-	with open(UNIQUE, "w", newline="") as file:
-	    columns = ["count","marker", "date", "description"]
-	    writer = csv.DictWriter(file, fieldnames=columns)
-	    writer.writeheader()
-	     
-	    writer.writerows(inf_error)
-	    writer.writerows(inf_warning) 	
-	    writer.writerows(inf_critical)
 
 main()

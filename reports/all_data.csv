@@ -1,4 +1,4 @@
-id_str,marker,date,description
+id_line,marker,date,description
 0,ERROR,2017-11-10 11:29:47, None openerp.http: Exception during JSON request handling.
 1,ERROR,2017-11-10 11:33:37," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60309)"
 2,ERROR,2017-11-10 11:33:37," pg openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 60414)"
