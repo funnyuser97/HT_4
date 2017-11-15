@@ -1,3 +1,4 @@
+#program by Stupka Bogdan
 import re,os,csv
 #names of files
 INPUT_FILE = "openerp-server.log"
